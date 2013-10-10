@@ -1,4 +1,4 @@
-name    'yguenane-ygrmps'
+name    'yguenane-ygrpms'
 version '0.1.0'
 source 'https://github.com/Spredzy/puppet-ygrpms'
 author 'Yanis Guenane'

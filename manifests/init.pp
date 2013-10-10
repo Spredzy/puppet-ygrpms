@@ -9,7 +9,7 @@
 #
 # === Example
 #
-#  Class['ygrmps']
+#  Class['ygrpms']
 #
 #  or
 #
