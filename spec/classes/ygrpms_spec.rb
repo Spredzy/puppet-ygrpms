@@ -12,7 +12,7 @@ describe 'ygrpms' do
       end
 
       let(:params) do
-        {'enabled'  => '1',}
+        {'enabled'  => true,}
       end
 
       it 'install ygrpms repo ' do
@@ -37,7 +37,7 @@ describe 'ygrpms' do
       end
 
       let(:params) do
-        {'enabled'  => '1',}
+        {'enabled'  => true,}
       end
 
       it 'install ygrpms repo ' do
@@ -62,7 +62,7 @@ describe 'ygrpms' do
       end
 
       let(:params) do
-        {'enabled'  => '0', }
+        {'enabled'  => false, }
       end
 
       it 'DO NOT install ygrpms repo ' do

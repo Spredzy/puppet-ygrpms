@@ -9,7 +9,7 @@ URL:            http://forge.puppetlabs.com/yguenane/augeas
 Source0:        http://forge.puppetlabs.com/yguenane/augeas/%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
-Requires:       puppet
+Requires:       puppet puppet-stdlib
 
 %description
 A Puppet module that installs and configure ygrpms repo
