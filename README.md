@@ -6,9 +6,9 @@ A Puppet module that installs and configure (ygrpms repo)[http://yum.yanisguenan
 
 # Parameters
 
-* enabled (0|1)
+* enabled (true|false)
 
-Indicate if the `ygrpms` repo should be enabled (default: 1)
+Indicate if the `ygrpms` repo should be enabled (default: true)
 
 # Usage
 
